@@ -20,17 +20,13 @@ Our methodology not only simplifies the process of following a recipe but also e
 
 We conducted a comprehensive evaluation of QFP against other open-source diffusion models. Our analysis focused on several key metrics to ensure the effectiveness and accuracy of our generated plans and images. The results underscore QFP's potential to enhance the culinary experience significantly.
 
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
 ### Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
 - Git
 - Python 3.6 or later
 
-### Installation
+### Instructions 
 
 1. **Clone the repository**
 
@@ -44,10 +40,29 @@ Before you begin, ensure you have the following installed on your system:
    cd ProcedurePlanningRecipePrep
    ```
 
-## Contributing
+2. **Setup a Virtual Environment**
+   It's recommended to create a virtual environment to keep the dependencies required by different projects separate. Use the following command to create a virtual environment named venv:
 
-(Information on how others can contribute to the project.)
+   **For Windows:**
+   ```cmd
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
 
-## License
+   **For macOS and Linux:**
+   ```sh
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-(Specify the license under which the project is made available.)
+4. **Install Dependencies**
+   With your virtual environment activated, install all required dependencies by running:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+5. Run the Streamlit Application
+   Once the dependencies are installed, you can run the Streamlit application using:
+   ```sh
+   streamlit run main.py
+   ```
