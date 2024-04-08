@@ -22,7 +22,27 @@ We conducted a comprehensive evaluation of QFP against other open-source diffusi
 
 ## Getting Started
 
-(Include installation, setup instructions, and how to use the application.)
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+- Git
+- Python 3.6 or later
+
+### Installation
+
+1. **Clone the repository**
+
+   Start by cloning the repository to your local machine. Open a terminal and run the following command:
+   ```sh
+   git clone https://github.com/SanidhyaJohri/ProcedurePlanningRecipePrep.git
+   ```
+
+   Navigate to the folder containing the files using the command:
+   ```sh
+   cd ProcedurePlanningRecipePrep
+   ```
 
 ## Contributing
 
